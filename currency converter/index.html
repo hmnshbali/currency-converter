@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <h1 class="title">Currency Converter</h1>
+        </div>
+
+        <div class="main" style="text-align: center;">
+            <div class="top">
+                <h3 class="enter">Enter Amount</h3>
+                <input type="number" class="amount" />
+            </div>
+
+
+            <div class="dropdown">
+                <div class="from-container">
+                    <p>From</p>
+                    <img src="https://flagsapi.com/AE/flat/64.png" class="from-img" />
+                    <select name="from" id="from">
+                    </select>
+                </div>
+
+                <div class="swap">
+                    <img src="./assets/swap.png" class="swap-icon" />
+                </div>
+
+                <div class="to">
+                    <p>To</p>
+                    <img src="https://flagsapi.com/AE/flat/64.png" class="to-img" />
+                    <select name="to-s" id="to">
+
+                    </select>
+
+                </div>
+            </div>
+
+
+            <div class="msg">1 AED=1AED</div>
+            <div class="final"></div>
+
+            <div class="get">
+                <button id="exchange">Get Exchange Rate</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

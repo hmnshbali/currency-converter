@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: #826afb;
+}
+
+
+.dropdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  
+}
+
+.from-container{
+    padding-right: 50px;
+    position: relative;
+    bottom: 34.5px;
+    
+}
+#from,#to{
+    padding: 6px;
+    outline: none;
+    font-size: 15px
+
+}
+
+
+
+.to{
+    position: relative;
+    bottom: 31px;
+    
+}
+
+.msg{
+   position: relative;
+   bottom: 6px;
+   font-size: 20px;
+   font-weight: 400;
+}
+.final{
+    font-size: 20px;
+   position: relative;
+   bottom: 2px;
+   font-weight: 500;
+}
+
+
+
+.top{
+    display: grid;
+    place-items: left;
+    grid-template-rows:10px 50px;
+    padding-left: 30px;
+   
+}
+
+.amount{
+    width:50%;
+    height: 30px;
+    outline: none;
+    text-align: left;
+    min-width: 50%;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.enter{
+position: relative;
+right: 38%;
+bottom: 40px;
+    
+    
+}
+
+.main{
+  
+   max-width: 100%;
+   width: 500px;
+   height: 400px;
+   margin: auto;
+   padding-top: 50px;
+   background: #fff;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 12px;
+   color: #333;
+   position: relative;
+   bottom: 80px;
+
+   
+
+}
+
+.container{
+    padding-top:100px;
+}
+
+.to{
+    
+    padding-left: 50px;
+}
+
+.swap-icon{
+    height: 40px;
+    width: 50px;
+    padding-top: 30px
+}
+
+
+p{
+    font-weight: 1000;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+
+#exchange{
+  height:100%;
+  padding:15px;
+  width: 90%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: #826afb;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 1000px;
+  margin-top: 20px;
+}
+
+
+.upper{
+    position: relative;
+    bottom: 85px;
+    padding-left:36%;
+    color: white;
+    font-weight: 500;
+    font-size:20px;
+    letter-spacing:1px;
+}
+
